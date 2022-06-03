@@ -13,8 +13,8 @@ spec:
     metadata:
       labels:
         app: myjavaapp
-  spec:
-    containers:
+    spec:
+     containers:
       - name: myjavaapp-container
         image: maha4iac/myonlinebooking:1
         ports:
